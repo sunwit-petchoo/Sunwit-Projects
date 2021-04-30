@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>SP Cinema</title>
+ 
+  <meta name="description" content="SP Cinema website" />
+  <meta name="keywords" content="Movies, Ticket,ShowTime" />
+  <meta name="author" content="Sunwit Petchoo"  />
+  <meta charset ="utf-8"/>
+  <link href="styles/style.css" rel="stylesheet" />
+</head>
+
+<body>
+	<!-- Heading and menu -->
+  <article>
+   <header>
+	<h1 class="blinking">SP Cinema Movies For You</h1>
+   </header>
+   <nav>
+   <a href="index.html">Home</a> 
+   <a href="product.html">Now Showing</a> 
+   <a href="enquire.html">Program</a> 
+   <a href="about.html">About us</a> 
+   <a href="enhancements.html">Enhancements </a>
+   </nav>
+   <section id="enquireForm">
+   <form  method="post" action="http://mercury.swin.edu.au/it000000/formtest.php">
+	
+	
+		<p><label for="firstName">First Name: </label> 
+			<input type="text" name= "firstName" id="firstName" maxlength="25" size="30" required="required" pattern="^[a-zA-Z ]+$" />
+		</p>
+		<p><label for="lastName">Last Name: </label> 
+			<input type="text" name= "lastName" id="lastName" maxlength="25" size="30" required="required" pattern="[A-Za-z]+"/>
+		</p>
+		<p><label for="email">Email Address: </label> 
+			<input type="email" name= "email" id="email"  size="35" required="required"/>
+		</p>
+		<fieldset>
+		<legend>Address</legend>
+		<p>
+		<label for="stAddress">Street Address: </label><input type="text" id="stAddress" name="stAddress" maxlength="40" required="required"/>
+		</p>
+		<p>
+		<label for="subTown">Suburb/town: </label><input type="text" id="subTown" name="subTown" maxlength="20" required="required"/>
+		</p>
+		<p>
+			<label for="state">State: </label>
+			<select name="state" id="state" required="required">
+				<option value="">Please Select State</option>			
+				<option value="VIC">VIC</option>
+				<option value="NSW">NSW</option>
+				<option value="QLD">QLD</option>
+				<option value="NT">NT</option>
+				<option value="WA">WA</option>
+				<option value="SA">SA</option>
+				<option value="TAS">TAS</option>
+				<option value="ACT">ACT</option>
+			</select>
+			</p>
+			<p><label for="postCode">Postcode: </label> 
+			<input type="text" name= "postCode" id="postCode" maxlength="20" size="10" required="required" pattern="\d{4}"/>
+		</p>
+		</fieldset>
+		<p>
+		<label for="phoneNumber">Phone number: </label><input type="tel" id="phoneNumber" name="phoneNumber" maxlength="10" pattern="\d{10}" placeholder="‎0xxxxxxxxx " required="required"/>
+		</p>
+		<p>Preferred contact: </p>
+		<p><label><input type="radio" id="email2" name="pContact" value="email"/>Email</label> 
+			   <label><input type="radio" id="post" name="pContact" value="post" checked="checked" />Post</label> 
+			   <label><input type="radio" id="phone" name="pContact" value="phone" />Phone</label>
+		</p>
+		<p>
+			<label for="genre">Movie genres: </label>
+			<select name="genre" id="genre" required="required">
+				<option value="">Please Select Genres</option>			
+				<option value="Action">Action</option>
+				<option value="Adventure">Adventure</option>
+				<option value="Comedy">Comedy</option>
+				<option value="Crime">Crime</option>
+				<option value="Drama">Drama</option>
+				<option value="Fantasy">Fantasy</option>
+				<option value="Horror">Horror</option>
+				<option value="Science fiction">Science fiction</option>
+			</select>
+		</p>
+		<p>
+		<label for="nShow">Now Showing</label><input type="checkbox" id="nShow" name="category[]" value="now showing" checked="checked"/>
+		<label for="cSoon">Coming Soon</label><input type="checkbox" id="cSoon" name="category[]" value="Coming Soon"/>
+		<label for="3D">3D</label><input type="checkbox" id="3D" name="category[]" value="3D"/>
+		<label for="mFest">Moives festival</label><input type="checkbox" id="mFest" name="category[]" value="Moives festival"/>
+		</p>
+		<label for="Comments">Comments</label>
+		<p>
+		<textarea id="Comments" name="Comments" rows="4" cols="40" placeholder="Write your comments here..."></textarea>
+		</p>
+	
+	<input class="formButton" type= "submit" value="Search"/>
+	<input class="formButton" type= "reset" value="Clear"/>
+</form>
+</section>
+  
+   <aside id="ads">
+   <h2>Don't miss a chance to win the prize</h2> 
+   <h3>2000$ every month</h3>
+   <p>when you buy any tickets and register online</p>
+   <p>Next time the winner maybe You</p>
+   <!--Image from http://cureletcoe.paspartout.com/pages/new-post -->
+   <p><img src="images/prize.jpg" alt="win" title="Winner"/></p>
+   </aside>
+   </article>
+   <footer>
+   <hr/>
+   <p>
+   <!--Image from https://www.sfcinemacity.com/showtime/movie/HO00000202 -->
+   <span><img src="images/Searching.PNG" alt="searching" title="searching"/></span>
+   <!--Image from https://www.sfcinemacity.com/showtime/movie/HO00000068 -->
+   <span class="picFooter"><img src="images/thenun.PNG" alt="thenun" title="thenun"/></span>
+   <!--Image from https://www.sfcinemacity.com/showtime/movie/HO00000155 -->
+   <span><img src="images/pooh.PNG" alt="pooh" title="pooh"/></span>
+   </p>
+   <hr/>
+   <p>Sunwit Petchoo</p>
+   <hr/>
+   </footer>      
+</body>
+
+</html>

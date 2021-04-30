@@ -1,0 +1,212 @@
+/* filename: style.css
+author: Sunwit Petchoo
+created: 22/08/2018
+last modified: 30/08/2018
+purpose: CSS style for all page
+*/
+
+
+header {
+    background-image: url(images/header1.jpg);
+	background-repeat: repeat-x;
+	background-position: bottom;
+	height: 158px;
+	width: 100%;
+	border:1px solid black;
+	
+    
+}
+body{
+	background-image: linear-gradient(-90deg,  #a9cce3  , #eaf2f8);
+}
+
+footer{
+	font-style: italic;
+}
+h2,h3{
+	font-family:arial, sans-serif;
+}
+header h1{
+	margin-top:158px;
+	font-family:arial, sans-serif;
+	
+}
+header:first-child h1 {
+    color: red;
+}
+nav a{
+	text-decoration: none;
+	background-color: #555555;; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+}
+nav{
+	margin-left:30%;
+}
+
+nav a:hover{
+	background-color: lightblue;
+	border-color: darkblue;
+	color: black;
+}
+.mainCenter{
+	float:left;
+	width:50%;
+	margin: 1em 1em 1em 1em;
+	border: 1px solid black;
+	
+}
+aside h2{
+	text-align: center;
+}
+aside{
+	
+	width: 40%;
+	float: right;
+	margin: 1em 1em 1em 1em;
+	
+}
+#mainPic{
+	width:100%;
+}
+footer{
+	clear:both;
+}
+.picFooter{
+	margin-left:30%;
+	margin-right:30%;
+}
+/*Product Style */
+/* Set tr background color for even node src https://www.w3schools.com/css/tryit.asp?filename=trycss_table_fancy*/
+#hotDeals tr:nth-child(even){background-color: #f2f2f2;}
+#hotDeals{
+	border: 3px outset blue;
+	width:90%;
+}
+table,th,td,tr{
+	border: 1px solid black;
+} 
+#hotDeals tr:hover {background-color: #ddd;}
+
+#hotDeals th {
+   
+    text-align: center;
+    background-color: blue;
+    color: white;
+}
+.priceCenter{
+	text-align:center;
+	
+}
+
+#section1{
+	padding-left:10%;
+	margin:.5em .5em .5em .5em;
+	width:35%;
+	float:left;
+}
+#section2{
+	
+	
+	margin:.5em .5em .5em .5em;
+	width:55%;
+	display: inline;
+	float:right;
+	
+}	 
+#section3{
+	clear:left;
+}
+#asideProduct{
+	float:right;
+	margin:2em 2em 2em 2em;
+	padding:.5em .5em;
+	border: 4px outset yellow;
+	width:25%;
+}
+
+/*Enquire Style*/
+#ads{
+	float:left;
+}
+#enquireForm{
+	
+	width:40%;
+	float:left;
+	padding-left:50px;
+	background-color:  #b6cada ; 
+}
+section fieldset{
+	width:50%;
+}
+/*about Style*/
+#photo{
+	float:right;
+	margin-right:20px;
+	border: 3px groove black;
+	background-color:pink;
+}
+
+#name{
+	font-size:200%;
+	text-align:center;
+}
+#studentId{
+	text-align:right;
+	font-family: San Serif, Arial;
+}
+section{
+margin:2em;	
+}
+table,th,td,tr{
+	border: 1px solid black;
+} 
+
+section span{
+	margin: 2em 2em 2em 2em;
+	
+}
+tbody td {
+	background-color: #b6cada ;
+}
+thead th {
+	background-color: #b6cada ;
+}
+footer{
+	width:100%;
+	text-align:center;
+}
+#reflection{
+	clear:both;
+}
+#timeTable{
+	width:30%;
+	float:right;
+	
+}
+#timeTable table{
+	border-collapse: collapse;
+	
+}
+#inf1,#inf2,#inf3,#inf4,#inf5,#inf6,#inf7{
+	background-color:white;
+}
+
+#webLink{
+	width:30%;
+	float:left;
+	text-align:center;
+}
+/*set button with box shadow src https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_box-shadow*/
+.formButton{
+  background-color: #00c9ff;
+  box-shadow: 0px 5px 0px 0px #000000;
+  width:70px;
+  height:30px;
+}
+
+
+
+
+	 
