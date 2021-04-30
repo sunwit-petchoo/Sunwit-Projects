@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Die
+comment0.text=\r\n\ Represents\ a\ game\ die\ with\ between\ 4\ and\ max\ int\ faces.\ Code\ includes\ a\r\n\ mixture\ of\ explanatory\ comments\ to\ aid\ learner\ programmers\ and\ doc\ comments\r\n\ of\ a\ level\ above\ where\ students\ are\ expected\ to\ reach.\r\n\ \r\n\ Die\ class\ Example\ from\ https\://swinburne.instructure.com/courses/14890/assignments/168958\r\n
+comment1.params=
+comment1.target=Die()
+comment1.text=\r\n\ Creates\ a\ new\ Die\ with\ the\ {@linkplain\ \#DEFAULT_FACES\ default\ number}\ of\r\n\ faces\ (6)\ and\ an\ initial\ face\ value\ of\ 1.\r\n
+comment2.params=faces
+comment2.target=Die(int)
+comment2.text=\r\n\ Creates\ a\ new\ Die\ with\ the\ given\ number\ of\ faces\ and\ an\ initial\ value\r\n\ of\ 1.\ If\ the\ requested\ number\ of\ faces\ is\ below\ the\ {@linkplain\r\n\ \#MIN_FACES\ minimum}\ then\ it\ is\ set\ to\ the\ default\ number\ of\ faces\ (6).\r\n\r\n\ @param\ faces\ the\ number\ of\ faces\ of\ the\ new\ Die\r\n
+comment3.params=
+comment3.target=int\ getFaceValue()
+comment3.text=\r\n\ Returns\ the\ Die's\ current\ face\ value\ (i.e.,\ the\ side\ facing\ 'up').\r\n\r\n\ @return\ the\ current\ face\ value\r\n
+comment4.params=
+comment4.target=int\ roll()
+comment4.text=\r\n\ Simulates\ rolling\ the\ die\ by\ generating\ a\ new\ face\ number\ between\ 1\ and\r\n\ numFaces.\ Returns\ the\ new\ face.\r\n\r\n\ @return\ the\ new\ value\ of\ the\ Die\ after\ the\ roll\r\n
+numComments=5
